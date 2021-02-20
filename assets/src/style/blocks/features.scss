@@ -1,0 +1,45 @@
+.features {
+  position: relative;
+  padding: 8.125em 0 11.25em;
+  text-align: center;
+
+  background-color: #f6f5f3;
+}
+
+.features_title {
+  font-size: 22px;
+
+  margin: 20px 0 15px;
+}
+
+
+.pen_holder{
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0;
+}
+
+.earphones {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 0;
+}
+
+.coffe_cup {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+
+@media (max-width: 768px) {
+  .features {
+    padding: 2em 0 2em;;
+  }
+}
+
+
+

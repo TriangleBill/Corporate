@@ -1,0 +1,51 @@
+.description {
+  padding: 90px 0;
+
+  background: url("../../img/description/description_bg.jpg") left no-repeat;
+  background-size: contain;
+}
+
+.macbook {
+  position: relative;
+}
+
+.macbook_inner {
+  width: 100%;
+  max-width: 630px;
+  height: auto;
+
+  position: absolute;
+  left: -100px;
+  top: 0;
+  z-index: 1;
+}
+
+
+@media (max-width: 1200px) {
+  .macbook_inner {
+    top: 18px;
+  }
+
+}
+
+@media (max-width: 992px) {
+  .description {
+    background: url("../../img/description/description_bg.jpg") center no-repeat;
+    background-size: cover;
+    text-align: center;
+  }
+
+  .macbook {
+    position: static;
+  }
+  .macbook_inner {
+    position: static;
+  }
+}
+@media (max-width: 768px) {
+  .description {
+    padding: 2em 0 2em;;
+  }
+}
+
+

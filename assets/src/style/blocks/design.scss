@@ -1,0 +1,37 @@
+.design {
+  position: relative;
+
+  padding: 11.25em 0 10em;
+
+  background: url("../../img/design_bg.jpg") right no-repeat;
+  background-size: contain;
+}
+
+.design_bg {
+  width: 39%;
+  height: 100%;
+
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+
+  background-size: cover;
+}
+
+@media (max-width: 1200px) {
+  .design {
+    background: url("../../img/design_bg.jpg") center no-repeat;
+    background-size: cover;
+
+    padding: 5em 0 5em;
+  }
+}
+
+@media (max-width: 768px) {
+  .design {
+    padding: 2em 0 2em;
+  }
+}
+
+

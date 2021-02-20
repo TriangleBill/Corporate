@@ -1,0 +1,121 @@
+.try_now {
+  padding: 5.9375em 0 5.3125em;
+
+  background-color: #323969;
+
+  color: white;
+}
+
+.try_now_title .subtitle{
+  margin-bottom: 2.375em;
+
+  &:after {
+    content: "";
+    display: inline-block;
+    margin-left: 10px;
+
+    width: 35px;
+    border-bottom: white 7px dotted;
+  }
+
+}
+
+.try_mow_item{
+  margin-bottom: 3.125em;
+}
+
+.try_now_input {
+  width: 100%;
+  max-width: 263px;
+
+  padding: 15px 0 15px 26px;
+
+  border: #999cb4 1px solid;
+
+  background-color: #464c77;
+
+  color: white;
+  text-transform: uppercase;
+
+  &::placeholder {
+    text-transform: uppercase;
+
+    color: white;
+  }
+}
+
+
+.btn_try_now {
+  width: 100%;
+  max-width: 255px;
+  height: 56px;
+
+  position: relative;
+
+  &:before {
+    content: "30 days free trial for all.";
+    display: block;
+    position: absolute;
+
+    top: -58px;
+    right: 28px;
+    z-index: 1;
+
+    font-size: 16px;
+    text-transform: none;
+
+    pointer-events:none
+  }
+
+  &:after {
+    content: url("../../img/arrow.png");
+    display: block;
+    position: absolute;
+
+    top: -50px;
+    left: 0;
+    z-index: 1;
+  }
+
+  &:hover:before{
+    color: white;
+  }
+}
+
+.try_now {
+
+  span {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  p {
+    color: #a8aabc;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .try_now {
+    padding: 1em 0 1em;
+
+    background-color: #323969;
+
+    color: white;
+  }
+
+  .try_now_title .subtitle {
+    margin-bottom: 20px;
+  }
+
+  .btn_try_now{
+    &:before {
+      display: none;
+    }
+
+    &:after {
+      display: none;
+    }
+  }
+}
+

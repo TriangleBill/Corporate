@@ -1,0 +1,35 @@
+.clients {
+  padding: 110px 0 85px;
+
+  background: url("../../img/clients/clients_bg.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.logos {
+  margin-top: 100px;
+}
+
+.client_name {
+  font-size: 22px;
+  color: #ffffff;
+}
+
+.client_position {
+  color: $red;
+}
+
+.client_about {
+  font-weight: 500;
+  font-style: italic;
+  color: #797a7e;
+}
+
+@media (max-width: 768px) {
+  .clients {
+    padding: 69px 0 58px;
+  }
+  .logos {
+    margin-top: 35px;
+  }
+}
+
